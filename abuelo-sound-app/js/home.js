@@ -1,4 +1,5 @@
-var sample = document.getElementById("audio");
+var sample = document.getElementById("audio1");
+var stupid = document.getElementById("audio2");
 
 function playSound(){
     sample.play();
@@ -14,9 +15,11 @@ sample.onended = function() {
 
 let two = document.querySelector('.sound-2');
 
-two.addEventListener('click', function(){
-    window.location = 'sound-2.html';
-}); 
+one.addEventListener('click', playSound());
+
+stupid.onended = function() {
+    window.location = "sound-2.html"; 
+   };
 
 let three = document.querySelector('.sound-3');
 
