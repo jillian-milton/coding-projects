@@ -1,8 +1,16 @@
+var sample = document.getElementById("audio");
+
+function playSound(){
+    sample.play();
+}
+
 let one = document.querySelector('.sound-1');
 
-one.addEventListener('click', function(){
-    window.location = 'sound-1.html';
-}); 
+one.addEventListener('click', playSound());
+
+sample.onended = function() {
+    window.location = "sound-1.html"; 
+   };
 
 let two = document.querySelector('.sound-2');
 
