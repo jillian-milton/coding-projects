@@ -9,4 +9,4 @@ function playSound(){
     sample.play();
 }
 
-window.addEventListener('load', playSound());
+window.addEventListener('click', playSound());
