@@ -1,0 +1,34 @@
+body{
+    font-family: Arial;
+    background-color: green; 
+}
+
+main {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+section{
+    max-width: 200px; 
+    max-height: 200px;
+    padding: 14px; 
+    margin: 0px; 
+}
+
+p{
+    font-size: 30px;
+    background-color: #f4d48f;
+    color: black; 
+    text-align: center; 
+}
+
+button{
+    background-color: rgb(155, 98, 49); 
+    color: white; 
+    padding: 10px 20px;
+    border-style: none; 
+    font-size: 24px; 
+    
+}
