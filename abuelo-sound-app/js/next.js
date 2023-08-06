@@ -1,27 +1,23 @@
-let eleven = document.querySelector('.sound-11');
+var sound11 = new Audio();
+sound11.src = "../audio/Ya Ya Ya.mp3" 
 
-eleven.addEventListener('click', function(){
-    window.location = 'sound-11.html';
-}); 
+sound11.onended = function() {
+    window.location = "sound-11.html"; 
+   };
 
-let twelve = document.querySelector('.sound-12');
+var sound12 = new Audio();
+sound12.src = "../audio/Abuelo 13.mp3";
 
-twelve.addEventListener('click', function(){
-    window.location = 'sound-12.html';
-}); 
+sound12.onended = function() {
+    window.location = "sound-12.html"; 
+   };
 
-let thirteen = document.querySelector('.sound-13');
-
-thirteen.addEventListener('click', function(){
-    window.location = 'sound-13.html';
-}); 
-
-let fourteen = document.querySelector('.sound-14');
-
-fourteen.addEventListener('click', function(){
-    window.location = 'sound-14.html';
-}); 
-
+var sound13 = new Audio();
+   sound13.src = "../audio/Calmate.mp3" ;
+   
+   sound13.onended = function() {
+       window.location = "sound-13.html"; 
+      };
 
 let back = document.querySelector('.back');
 
