@@ -1,0 +1,367 @@
+body{
+    background-color: white;
+    color: black; 
+    font-family: Arial, sans-serif; 
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+/* Mobile */
+
+.mobileMenu{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    gap: 30px;
+    background-color: #01216C;
+    width: 100%; 
+}
+
+.blind{
+    color: #00FF76;
+}
+
+
+.hamburger{
+    background: none; 
+    border: none; 
+    margin: 10px;
+}
+
+.closed{
+    display: none; 
+}
+
+nav {
+    display: flex;
+    flex-direction: column; 
+    background-color: #01216C;
+    gap: 20px;
+    align-items: right;
+}
+
+.open{
+    padding: 30px;
+}
+
+nav a{
+    color: #00FF76;
+    font-size: 18px;
+    text-decoration: none; 
+}
+
+a:hover{
+    text-decoration: underline; 
+}
+
+.center{
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center; 
+    margin-top: 30px; 
+    margin-bottom: 30px; 
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+
+p{
+    font-size: 16px; 
+}
+
+h2{
+    color: #006222;
+    font-size: 20px; 
+}
+
+h3{
+    color: #001A57;
+    font-size: 16px; 
+}
+
+
+.none{
+    display: none; 
+ }
+
+ .assist{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin: 30px;
+    background-color: #DCE4F7;
+}
+
+.stacked{
+    display: flex;
+    flex-direction: column;
+}
+
+.authors{
+    background-color: #DCE4F7;
+}
+
+aside{
+    display: flex;
+    gap: 20px; 
+    justify-content: center;
+    align-content: flex-start;  
+    width: 50%;
+}
+
+.author1{
+    display: none;
+}
+
+.author2{
+    display: none; 
+}
+
+
+ /* Footer CSS Mobile */
+
+footer{
+    background-color: #001A57;
+    color: white; 
+    margin: 0px; 
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.become{
+    width: 40%;
+    margin: 0 auto; 
+    padding-bottom: 30px;
+}
+
+.subscribe{
+    color: white; 
+}
+
+.form{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;  
+    gap: 20px;
+}
+
+.submit{
+    color: #BCBCBC;
+    background-color: #006222;
+    padding: 5px; 
+}
+
+.submit:hover{
+    color: white; 
+}
+
+#email{
+    background-color: #c9c6c6;
+    width: 10/12;
+    padding: 5px;
+    border-style: none; 
+}
+
+::placeholder { 
+    color: black;
+  }
+
+  .social{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 20px;
+    margin: 30px; 
+}
+
+
+.horizontal{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 20px;
+}
+
+/* Desktop */
+
+
+@media (min-width: 600px){
+
+    aside{
+        display: none;
+    }
+
+
+    .mobileMenu{
+        display: none; 
+    }
+
+    .hamburger{
+        display: none; 
+    }
+
+    /* Nav with Dropdown CSS */
+
+    .open {
+        display: flex;
+        flex-direction: row; 
+        gap: 40px;
+        justify-content: flex-end;
+        align-items: center; 
+        padding: 30px;
+        background-color: #01216C;
+      }
+
+      .blind{
+        text-align: left; 
+      }
+
+    nav a{
+        color: #00FF76;
+        font-size: 18px;
+        text-decoration: none; 
+    }
+
+    a:hover{
+        text-decoration: underline; 
+    }
+
+    .head{
+        background-color: #01216C;
+        display: flex;
+        justify-content: space-around; 
+    }
+
+    p{
+        font-size: 16px; 
+    }
+    
+    h2{
+        color: #006222;
+        font-size: 26px; 
+    }
+    
+    h3{
+        color: #001A57;
+        font-size: 15px; 
+    }
+
+    .categories{
+        margin: 20px;
+    }
+
+    .assist{
+        display: flex;
+        flex-direction: column; 
+        margin: 4px;
+        background-color: #DCE4F7;
+    }
+
+    .cat{
+        margin: 8px;
+    }
+
+    .row1, .row2, .row3{
+        display: flex; 
+        justify-content: center;
+        align-items: center; 
+        gap: 10px;
+        margin: 20px;
+    }
+
+    /* Authors */
+
+    .authors{
+        background-color: #DCE4F7;
+        margin-bottom: 20px; 
+    }
+
+    .milton{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .author1, .author2{
+        display: flex; 
+        justify-content: center;
+        align-items: center; 
+        gap: 10px;
+        margin: 10px;
+    }
+
+    .des{
+        font-size: 14px; 
+        margin: 3px;
+        width: 170px;
+        text-align: center; 
+    }
+
+
+    footer{
+        background-color: #001A57;
+        color: white; 
+        margin: 0px; 
+        padding: 10px;
+        padding-bottom: 20px;
+    }
+
+    .become{
+        width: 40%;
+        margin: 0 auto; 
+        padding-bottom: 30px;
+    }
+
+    .subscribe{
+        color: white; 
+    }
+
+    .form{
+        display: flex; 
+        flex-direction: row;
+        justify-content: center; 
+        align-items: center;  
+        gap: 20px;
+    }
+
+    .submit{
+        color: #BCBCBC;
+        background-color: #006222;
+        padding: 5px; 
+    }
+
+    .submit:hover{
+        color: white; 
+    }
+
+    #email{
+        background-color: #c9c6c6;
+        width: 10/12;
+        padding: 5px;
+        border-style: none; 
+    }
+
+    ::placeholder { 
+        color: black;
+      }
+
+    .social{
+        display: flex; 
+        flex-direction: row; 
+        justify-content: center; 
+        align-items: center; 
+        gap: 20px;
+        margin: 30px; 
+    }
+
+
+    .horizontal{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+}
