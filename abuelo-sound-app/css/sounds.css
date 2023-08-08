@@ -27,6 +27,7 @@ main{
     flex-direction: column;
     align-items: center; 
     justify-content: center; 
+    margin-top: 100px; 
 }
 
 section{
@@ -34,4 +35,5 @@ section{
     flex-direction: row; 
     gap: 30px; 
     align-items: flex-end; 
+    margin-top: 200px;
 }
