@@ -19,6 +19,20 @@ var sound13 = new Audio();
        window.location = "sound-13.html"; 
       };
 
+var sound14 = new Audio();
+      sound14.src = "../audio/closer.mp3" ;
+      
+      sound14.onended = function() {
+          window.location = "sound-14.html"; 
+         };
+
+var sound15 = new Audio();
+         sound15.src = "../audio/closer.mp3" ;
+         
+         sound15.onended = function() {
+             window.location = "sound-15.html"; 
+            };
+
 let back = document.querySelector('.back');
 
 back.addEventListener('click', function(){

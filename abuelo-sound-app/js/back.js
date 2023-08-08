@@ -1,7 +1,7 @@
 let back = document.querySelector('.back');
 
 back.addEventListener('click', function(){
-    window.location = "home.html"; 
+    window.location = "next.html"; 
 })
 
 function playSound(){
