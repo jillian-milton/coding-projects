@@ -1,14 +1,6 @@
-var sample = document.getElementById("audio");
+var closer = new Audio();
+closer.src = "../audio/closer.mp3"; 
 
-function playSound(){
-    sample.play();
-}
-
-
-let home = document.querySelector('.home');
-
-home.addEventListener('click', playSound());
-
-sample.onended = function() {
-   window.location = "index.html"; 
-  };
+closer.onended = function() {
+    window.location = "index.html"; 
+   };
