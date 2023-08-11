@@ -20,18 +20,42 @@ var sound13 = new Audio();
       };
 
 var sound14 = new Audio();
-      sound14.src = "../audio/closer.mp3" ;
+      sound14.src = "../audio/Chila.m4a" ;
       
       sound14.onended = function() {
           window.location = "sound-14.html"; 
          };
 
 var sound15 = new Audio();
-         sound15.src = "../audio/closer.mp3" ;
+         sound15.src = "../audio/Arriba.m4a" ;
          
          sound15.onended = function() {
              window.location = "sound-15.html"; 
             };
+
+var sound16 = new Audio();
+            sound16.src = "../audio/De Nada.m4a" ;
+            
+            sound16.onended = function() {
+                window.location = "sound-16.html"; 
+               };
+
+var sound17  = new Audio();
+               sound17.src = "../audio/Stupid Question.m4a" ;
+               
+               sound17.onended = function() {
+                   window.location = "sound-17.html"; 
+                  };
+
+var sound18 = new Audio();
+         sound18.src = "../audio/Yes sir.m4a" ;
+         
+         sound18.onended = function() {
+             window.location = "sound-18.html"; 
+            };
+
+      
+   
 
 let back = document.querySelector('.back');
 
